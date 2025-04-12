@@ -26,6 +26,7 @@ Stretch Goals:
 
 ### Individual Goals
 - Be able to use this application in my personal job search and hope that it does provide useful help in tailoring my resume for every specific job. (Carolina)
+- I want to help my friends increase their possibilities to get a job and land an interviews since computerized job application processes have hurt this opportunity for many people.
 
 ## Implementation Plan
 
