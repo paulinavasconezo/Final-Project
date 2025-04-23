@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h2>Missing Keywords in Your Resume</h2>
+    {% if missing_keywords %}
+        <ul>
+        {% for word in missing_keywords %}
+            <li>{{ word }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Your resume includes all imporant keywords!</p>
+    {% endif %}
+    <br>
+    <a href="/">Back</a>
+    
+</body>
+</html>
