@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Optimizer</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Resume Keyword Optimizer</h1>
+    <form action="/analyze" method="post">
+        <label for="job">Job Description:</label><br>
+        <textarea name="job" rows="10" cols="60" required></textarea><br><br>
+
+        <label for="resume">Your Resume:</label><br>
+        <textarea name="resume" rows="10" cols="60" required></textarea><br><br>
+
+        <input type="submit" value="Analyze">
+
+    </form>
+    
+</body>
+</html>
