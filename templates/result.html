@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results</title>
+    <title>Missing Keywords</title>
 </head>
 <body>
-    <h2>Missing Keywords in Your Resume</h2>
+    <h1>Missing Keywords in Your Resume</h1>
+    
     {% if missing_keywords %}
         <ul>
         {% for word in missing_keywords %}
@@ -14,10 +15,10 @@
         {% endfor %}
         </ul>
     {% else %}
-        <p>Your resume includes all imporant keywords!</p>
+        <p>Congratulations! Your resume includes all imporant keywords!</p>
     {% endif %}
     <br>
-    <a href="/">Back</a>
+    <a href="/">Try Again!</a>
     
 </body>
 </html>

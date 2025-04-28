@@ -3,14 +3,14 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import nltk
 
-nltk.download('punkt_tab')
+nltk.download('punkt')
 nltk.download('stopwords')
 
 
 app = Flask(__name__)
 
 def clean_and_tokenize(text):
-    """This function turns words into tokens and get rid of stopwords"""
+    """This function turns words into tokens and gets rid of stopwords"""
     tokens = word_tokenize(text.lower())
     stop_words = set(stopwords.words('english'))
     cleaned_tokens= [
