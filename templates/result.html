@@ -19,7 +19,11 @@
     {% if missing_keywords %}
         <ul>
         {% for keyword, count in missing_keywords %}
-            <li>{{ keyword }} ({{count }} mentions)</li>
+            {% if count >= 5 %}
+                <li class="critical">{{ keyword }} ({{ count }} mentions) - Critical</li>
+            {% else %}
+                <li>{{ keyword }} ({{count }} mentions)</li>
+            {% endif %}
         {% endfor %}
         </ul>
     {% else %}

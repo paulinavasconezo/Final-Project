@@ -96,3 +96,8 @@ a:hover {
     text-align: center;
     font-weight: bold;
 }
+
+.critical {
+    color: #c0392b;
+    font-weight: bold;
+}
