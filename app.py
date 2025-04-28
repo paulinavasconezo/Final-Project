@@ -94,7 +94,7 @@ def analyze():
         reverse=True
     )
 
-    top_missing_keywords = sorted_missing[:10]
+    top_missing_keywords = [(word, word_freq[word]) for word in sorted_missing[:10]]
 
     print("Top missing keywords:", top_missing_keywords)
 

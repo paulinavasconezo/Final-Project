@@ -10,12 +10,16 @@
 <body>
     <h1>Missing Keywords in Your Resume</h1>
 
+    <div class="success-message">
+        ✅ Analysis Complete! Here are your missing keywords:
+    </div>
+
     <div class="results-container">
     
     {% if missing_keywords %}
         <ul>
-        {% for word in missing_keywords %}
-            <li>{{ word }}</li>
+        {% for keyword, count in missing_keywords %}
+            <li>{{ keyword }} ({{count }} mentions)</li>
         {% endfor %}
         </ul>
     {% else %}

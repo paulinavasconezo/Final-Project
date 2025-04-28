@@ -86,3 +86,13 @@ a:hover {
     text-align: center;
     margin-top: 20px;
 }
+
+.success-message {
+    background-color: #dfedda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
