@@ -1,7 +1,7 @@
 # 📃 Resume Keyword Optimizer
 
 # 🎯 Big Idea: Why This Project?
-*Getting rejected and getting no answers before a human ever sees your resume is a frustrating experience for job seekers nowadays.*
+*Getting rejected and getting no answers before a human ever sees your resume is a frustrating experience for job seekers nowadays. As our college graduation gets closer, we, and our friends, have been on the job-hunt for a couple of months. We have experienced and seen first-hand that no amount of job applications will guarantee a job if your resume is not well formatted and worded to pass automatic filters.*
 
 We wanted to build a tool that **makes the hidden rules of Applicant Tracking Systems (ATS) more visible and accessible.**
 
