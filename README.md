@@ -1,11 +1,13 @@
 # 📃 Resume Keyword Optimizer
 
-# 🎯 Goal
+# 🎯 Big Idea: Why This Project?
+*Getting rejected and getting no answers before a human ever sees your resume is a frustrating experience for job seekers nowadays.*
+
+We wanted to build a tool that **makes the hidden rules of Applicant Tracking Systems (ATS) more visible and accessible.**
 
 Applying for jobs is already stressful - but getting past the **Applicant Tracking Systems** many companies use can be an invisible obstacle. These systems often filter out resumes that don't match enough keywords from the job description, meaning many qualified candidates with big potential are never seen and judged by a human.
 
-**Resume Keyword Optimizer** was built to tackle this problem.
-This web-based tool helps job seekers improve their chances of getting interviews by:
+**Resume Keyword Optimizer** was built to tackle this problem. This web-based tool helps job seekers improve their chances of getting interviews by:
 
 - Identifying **missing keywords** in their resumes based on a specific job description.
 - Giving **actionable feedback** to help tailor applications for each job.
@@ -40,6 +42,26 @@ Using **Resume Keyword Optimizer** is quick and easy - no installation required.
 6. Go through the list and edit your resume accordingly.
 
 ---
+
+## 🖼 Results
+**Homepage**
+*Insert screenshot here*
+**Results Page**
+*Insert screenshot here*
+
+## 📈 Project Evolution
+Throughout the development process, we improved and expanded the project to meet real-world user needs:
+- Added **file upload support** for `.txt`, `.docx`, and `.pdf`
+- Introduced **critical keyword highlighting** to prioritize essential words.
+- Refined **front-end styling** for a clean and user-friendly interface
+- Improved **NLP Processing** with a custom stopword list to focus on important terms.
+
+We learned the importance of iteration, user perspective, and making technical tools accessible through a simple user interface.
+
+---
+## 📶 Live Demo
+*If Render website works we will replace this line with:*
+Access the Live Demo here! 🚀
 
 ## 💻 Technologies Used
 - Python 3
