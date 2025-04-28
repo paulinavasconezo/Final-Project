@@ -8,12 +8,17 @@
 </head>
 <body>
     <h1>Resume Keyword Optimizer</h1>
-    <form action="/analyze" method="post">
-        <label for="job">Job Description:</label><br>
-        <textarea name="job" rows="10" cols="60" required></textarea><br><br>
+    <form action="/analyze" method="post" enctype="multipart/form-data">
 
-        <label for="resume">Your Resume:</label><br>
-        <textarea name="resume" rows="10" cols="60" required></textarea><br><br>
+        <h3>Job Description</h3>
+        <label for="job">Paste text OR upload a .txt, .docx, or .pdf file:</label><br>
+        <textarea name="job" rows="10" cols="60" placeholder="Paste job description here..."></textarea><br><br>
+        <input type="file" name="job_file" accept=".txt, .docx, .pdf">
+
+        <h3>Your Resume</h3>
+        <label for="resume">Paste text OR upload a.txt, .docx, or .pdf file:</label><br>
+        <textarea name="resume" rows="10" cols="60" placeholder="Paste your resume here..."></textarea><br><br>
+        <input type="file" name="resume_file" accept=".txt, .docx, .pdf">
 
         <input type="submit" value="Analyze">
 
