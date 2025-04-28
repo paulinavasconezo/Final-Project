@@ -18,7 +18,7 @@ custom_stopwords = set([
     'required', 'preferred', 'experience', 'ability', 'must', 'work', 'job', 'opportunity',
     'management', 'communication', 'professional', 'business', 'strategic', 'planning',
     'implement', 'support', 'develop', 'various', 'process', 'services', 'operations',
-    'related', 'field', 'understanding', 'knowledge', 'ensure', 'assist', 'employer', 'build', 'recruitment'
+    'related', 'field', 'understanding', 'knowledge', 'ensure', 'assist', 'employer', 'build', 'recruitment', 'key'
 ])
 
 def extract_text_from_docx(file):
