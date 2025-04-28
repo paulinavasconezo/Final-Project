@@ -72,6 +72,16 @@ Access the Live Demo here! 🚀
 - HTML/CSS for front-end
 
 --- 
+## 🤖 Use of AI
+Throughout the development of this project, we used OpenAI's ChatGPT as a resource to enhance and guide our work. 
+
+Specifically, ChatGPT helped with:
+- Debugging Flask application issues, such as handling file uploads and routing between pages.
+- Expanding functionality beyond the original plan including support for how to download the requirements to allow users to upload `.txt` `.docx` and `.pdf` files.
+- Improving NLP steps, like cleaning and tokenizing text and coming up with a fuller list of custom stopwords that are commonly repeated in job descriptions.
+- Suggesting changes and edits in our html pages, such as addding `div` and using  `class` attributes to be able to easily style our pages.
+
+Overall, ChatGPT was useful as a development tutor in helping troubleshoot problems, explore different technical solutions, brainstorm improvements, and enhance the overall quality of the final deliverable.
 
 ## 👭 Team Members
 Paulina Vasconez & Carolina Martinez
