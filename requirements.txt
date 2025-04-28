@@ -1,0 +1,4 @@
+Flask
+nltk
+python-docx
+PyMuPDF
