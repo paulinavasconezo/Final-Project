@@ -31,8 +31,7 @@ Whether you're applying for your first internship or switching careers, this too
 Using **Resume Keyword Optimizer** is quick and easy - no installation required.
 
 ### Step-by-Step:
-1. **Launch the Flask app locally** by running `python app.py`
-2. Open your browser and go to http://127.0.0.1:5000/
+1. **Launch the Flask App** using the link below in the _Live Demo_ Section
 2. **Paste your job description** 
 3. **Paste** your job description and resume into the text boxes **or upload** .txt, .docx, or .pdf files.
 4. Click **"Analyze"**.
@@ -60,8 +59,11 @@ We learned the importance of iteration, user perspective, and making technical t
 
 ---
 ## 📶 Live Demo
-*If Render website works we will replace this line with:*
-Access the Live Demo here! 🚀
+You can try out the Resume Keyword Optimizer using the **live** hosted version here:
+
+🔗 [Launch the Resume Keyword Optimizer](https://resume-keyword-optimizer.onrender.com)
+
+_No installation needed - simply upload your resume and job description, and get instant results!_
 
 ## 💻 Technologies Used
 - Python 3
@@ -86,11 +88,3 @@ Overall, ChatGPT was useful as a development tutor in helping troubleshoot probl
 
 ## 👭 Team Members
 Paulina Vasconez & Carolina Martinez
-
-## 🖱 Requirements (for Developers)
-If you want to run this project locally:
-
-```bash
-pip install flask nltk python-docx PyMuPDF
-
-
