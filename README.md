@@ -80,6 +80,7 @@ Specifically, ChatGPT helped with:
 - Expanding functionality beyond the original plan including support for how to download the requirements to allow users to upload `.txt` `.docx` and `.pdf` files.
 - Improving NLP steps, like cleaning and tokenizing text and coming up with a fuller list of custom stopwords that are commonly repeated in job descriptions.
 - Suggesting changes and edits in our html pages, such as addding `div` and using  `class` attributes to be able to easily style our pages.
+- Troubleshooting deployment issues on Render, including resolving problems with port binding and configuring the app to run successfully on a live server.
 
 Overall, ChatGPT was useful as a development tutor in helping troubleshoot problems, explore different technical solutions, brainstorm improvements, and enhance the overall quality of the final deliverable.
 
