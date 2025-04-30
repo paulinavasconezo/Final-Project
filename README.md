@@ -44,9 +44,9 @@ Using **Resume Keyword Optimizer** is quick and easy - no installation required.
 
 ## 🖼 Results
 **Homepage**
-*Insert screenshot here*
+![Homepage](images/Homepage.png)
 **Results Page**
-*Insert screenshot here*
+![Results](images/Results.png)
 
 ## 📈 Project Evolution
 Throughout the development process, we improved and expanded the project to meet real-world user needs:
